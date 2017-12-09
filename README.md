@@ -9,7 +9,7 @@ which make your daily developer life easier.
 
 ## Usage
 
-#### # logs
+### # logs
 
 Tails the logs for a given container
 
@@ -17,7 +17,9 @@ Tails the logs for a given container
 
 `docka logs <container>`
 
-#### # start
+---
+
+### # start
 
 Starts all or a specific container
 
@@ -25,7 +27,9 @@ Starts all or a specific container
 
 `docka start <container>` (optional)
 
-#### # stop
+---
+
+### # stop
 
 Starts all or a specific container
 
@@ -33,7 +37,9 @@ Starts all or a specific container
 
 `docka stop <container>` (optional)
 
-#### # restart
+---
+
+### # restart
 
 Restarts all or a specific container
 
@@ -41,7 +47,9 @@ Restarts all or a specific container
 
 `docka restart <container>` (optional)
 
-#### # ssh
+---
+
+### # ssh
 
 Give ssh (bash) access to a container
 
@@ -49,7 +57,9 @@ Give ssh (bash) access to a container
 
 `docka ssh <container>`
 
-#### # ps
+---
+
+### # ps
 
 Lists all containers
 
@@ -57,11 +67,15 @@ Lists all containers
 
 `docka ps`
 
-#### # version
+---
+
+### # version
 
 Shows the app version
 
 **Usage**:
 
 `docka -v`
+
+---
 
