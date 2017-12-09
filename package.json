@@ -1,0 +1,47 @@
+{
+  "name": "docka",
+  "version": "1.0.1",
+  "description": "docka is a little CLI helper for common Docker commands. It makes repetitive commands like `docker-compose ...` into short and easy to type and remember commands.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "deploy": "gulp deploy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "docka": "app.js"
+  },
+  "author": "Mark Moffat",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "cli-spinner": "^0.2.7",
+    "gulp": "^3.9.1",
+    "meow": "^4.0.0"
+  },
+  "keywords": [
+    "docker",
+    "cli",
+    "helper",
+    "compose",
+    "commands",
+    "command line",
+    "container"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrvautin/docka.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mrvautin/docka/issues"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
+}
