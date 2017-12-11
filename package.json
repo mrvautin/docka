@@ -1,7 +1,7 @@
 {
   "name": "docka",
   "version": "1.0.1",
-  "description": "docka is a little CLI helper for common Docker commands. It makes repetitive commands like `docker-compose ...` into short and easy to type and remember commands.",
+  "description": "docka is a CLI helper for common Docker commands. It makes repetitive commands like `docker-compose ...` into short and easy to remember commands.",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
