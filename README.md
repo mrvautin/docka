@@ -69,6 +69,66 @@ Lists all containers
 
 ---
 
+### # build
+
+Builds Docker containers with docker-compose file
+
+**Usage**:
+
+`docka build`
+
+---
+
+### # images
+
+Lists all Docker images
+
+**Usage**:
+
+`docka images`
+
+---
+
+### # prune
+
+WARNING: This removes all stopped containers
+
+**Usage**:
+
+`docka prune`
+
+---
+
+### # cleanup
+
+WARNING: This removes all dangling (non used/tagged) images
+
+**Usage**:
+
+`docka cleanup`
+
+---
+
+### # killall
+
+WARNING: This stops and removes ALL containers.
+
+**Usage**:
+
+`docka killall`
+
+---
+
+### # stats
+
+Gets the running stats of all containers
+
+**Usage**:
+
+`docka stats`
+
+---
+
 ### # version
 
 Shows the app version
